@@ -1,0 +1,6 @@
+centi:float = float(input("Enter Temperature in Centigrade: "))
+fahren:float = float(input("Enter Temperature in Fahrenheit: "))
+F = float(centi * (9/5) + 32)
+C = float((fahren - 32) * 5/9)
+print(f"{centi} in Fahrenheit: {F}")
+print(f"{fahren} in Centigrade: {C}")
